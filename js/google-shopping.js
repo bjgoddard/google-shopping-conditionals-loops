@@ -4,7 +4,7 @@
 let data = require('../products.json')
 
 // This is a print out of all the items in the data
-console.log(data.items)
+// console.log(data.items)
 
 // Next, it's recommended to just look at the first item
 console.log(data.items[0])
@@ -13,8 +13,9 @@ console.log(data.items[0])
 // 1.) Go through the `items` and find all results that have `kind` of
 // `shopping#product`. Print the count of these results. Where else is
 // this count information stored in the search results?
-
 console.log('\nProblem 1:\n')
+
+
 
 // 2.) Print the `title` all items with a `backorder` availability
 // in `inventories`.
